@@ -1,0 +1,18 @@
+spring:
+  security:
+    user:
+      name: myuser
+      password: mypassword
+
+
+  application:
+    name: SpringQL
+
+server:
+  http2:
+    enabled: true
+
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
